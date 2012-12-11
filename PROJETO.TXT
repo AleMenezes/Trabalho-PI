@@ -1,0 +1,4 @@
+﻿título do projeto: Side_Quest
+
+	Este trabalho retrata um jogo no tipo Action-RPG desenvolvido na Linguagem em C,com o uso da IDE
+Eclipse e com auxilio da Biblioteca Allegro 5.0.7
