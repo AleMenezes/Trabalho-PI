@@ -1,0 +1,45 @@
+﻿\documentclass[a4paper]{article}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\title{ UPGames - Side Quest}
+\author{Alan Costa, Alessandro Menezes, Diego Soares, Kathleen Lima, Vinicius Fialho}
+\date{Centro Universitario Senac}
+\begin{document}
+
+\maketitle
+\section{Introdução}
+Este trabalho retrata um jogo de RPG na Linguagem em C com base na Biblioteca Allegro 5.0.7 por onde montamos o nosso projeto de PI (PROJETO INTEGRADOR), com um enredo que conta sobre uma nova raça que chega a terra com o objetivo de quererem eliminar os seres vivos e habitar assim com a sua espécie com isso os sobreviventes tentam achar uma forma de derrotar os Drigons "monstros do jogo" e matar o Dragão chefe para a salvação do resto dos sobreviventes .
+
+\subsection{Resumo}
+2055 DT(depois da tecnologia) –  Uma nova Raça chega a terra, e seu objetivo é eliminar os seres vivos com inteligência inferior a 250 Cerebeulos, e habitar mais um planeta com sua espécie.
+Eles se Definem como DriGons, os seres mais inteligentes do universo. Uma raça que consegue mudar sua forma constantemente para se misturar e conquistar os planetas.
+
+Os DriGons tem uma alta inteligência e força, e com isto rapidamente eliminaram 85% da Humanidade. Os poucos sobreviventes foram escravizados pela nova raça e presos na Prisão Grison, onde não a luz e pouca água.
+Certo dia com o desespero, os sobreviventes lembram de uma lenda antiga sobre uma Floresta Anciã que fornece poderes incríveis a aqueles que conseguem chegar ao seu centro. 
+Então eles decidem escolher o homem mais forte dentre eles para ajuda-lo a escapar para procurar a Floresta Anciã e derrotar os DriGons.
+Com isto se inicia a História de nosso Herói, Likon.
+
+\subsection{Desenvolvimento}
+O projeto foi feito utilizando uma biblioteca grafica chamada ALLEGRO, a biblioteca utilizada esta na versao 5.0.7. 
+O jogo foi programado utilizando uma linguagem de programacao de baixo nivel, a linguagem utilizada foi a Linguagem C. 
+Todos os mapas do jogo foram feitos utilizando tiles sets do programa RPG Maker (programa utilizado para a facil criacao de jogos RPG). Os mapas foram montados utilizando o software de edicao de mapas TILES, com esse software podemos estar montado os cenarios do jogo e os arquivos de textos utilizados na colisao com o mapa.
+No jogo existe 3 tecnicas de colisao diferentes. Para a colisao dos objetos ( personagens do jogo) em relacao ao mapa, foram utilizados arquivos de texto, onde esses dados eram carregados em uma matriz e utilizados para verificar a colisao. A colisao de objetos com objetos, ou seja, personagens do jogo, foi feita com uma tecnica chama bounding box, ou colisao por retangulo, a ideia da tecnica é simples, seria como voce estivesse desenhando um retangulo em volta dos objetos e verificando se os mesmos colidem ou nao. Outra tecnica de colisao que foi usada, foi a tecnica de colisao por area, esta tecnica foi utilizada para as colisoes de magias com os objetos, nesta tecnica voce verifica se o eixo x e o eixo y (ponto x e ponto y) de um objeto esta em cima ou dentro do outro objeto, um exemplo disso é voce verifica se a magia esta "dentro do objeto", caso esteja existe a colisao. No jogo foram utilizados structs (objetos) para serem usados como os personagens, magias, mapas e monstros. As structs facilitaram na criacao de eventos, movimentacao e colisao dos mesmos. As imagens dos personagens foram retiradas tambem do software RPG Maker, as magias foram feitas com tiles sets pegos na internet e editamos as mesmas. 
+Foi utilizado uma tecnica de recorte da imagem, pois carregavamos uma imagem inteira na memoria e a mesma precisava ser cortada para ser exibida na tela. 
+Para fazer a movimentacao da tela de acordo com a movimentacao foi utilizada uma tecnica de scrolling de camera. Para isso precisavamos de um mapa maior que a tela que era exibida.
+
+\subsection{Resultados}
+Realizados conceitos de Array, ponteiros, bibliotecas globais (ALLEGRO)
+
+\subsection{Conclusão}
+Concluimos ao montar esse jogo que  a linguagem em C é uma linguagem de baixo nível e que sozinha nao é o bastante para pode desenvolver um jogo, mas com a ajuda de uma biblioteca grafica externa como o ALLEGRO 5.0.7 facilita o desenvolvimento.
+
+\subsection{Bibliografia}
+http://www.rafaeltoledo.net/tutoriais-allegro-5/
+
+http://www.allegro.cc/
+
+\end{document}
