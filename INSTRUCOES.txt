@@ -1,3 +1,8 @@
+primeiramente baixe todos os arquivos deste link para poder efetuara instalação do Eclipse junto com a biblioteca do allegro:
+
+https://www.dropbox.com/sh/287pofppk4p85sp/9BODdiaO6t
+
+
 Efetue a instalação do “mingw-get-inst-20120426.exe”, conforme descrita abaixo: 
 
 Atenção: Requer conexão com a Internet para realizar a instalação! 
@@ -36,3 +41,5 @@ clique em "add.." e selecione o diretorio em que se encontra o nosso projeto, e 
 Na janela seguinte, selecione a opção "import existing projects" e clique em next novamente, e então finish na ultima janela.
 Antes de que seja possivel compilar, é necessario dar "build", que pode ser feito atraves do atalho ctrl + b.
 E para finalmente realizar a compilação o atalho é ctrl + f11.
+
+caso alguma dll esteja faltado na hora de executar, há uma copia delas dentro da pasta do projeto.
