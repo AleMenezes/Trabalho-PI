@@ -1,0 +1,38 @@
+Efetue a instalação do “mingw-get-inst-20120426.exe”, conforme descrita abaixo: 
+
+Atenção: Requer conexão com a Internet para realizar a instalação! 
+
+Execute o instalador
+Tela Welcome: Clique em Next
+Tela Administrator Install (se você estiver como administrador do Windows): Clique Next
+Tela Repository Catalogues: Marque a opção Download latest repository packages e clique em Next
+Tela License Agreement: Aceite as condições (I accept the agreement) e clique em Next
+Tela Select Destination Location: Escolha o diretório de instalação. É recomendado manter o diretório sugerido C:\MinGW. Clique em Next
+Tela Select Start Menu Folder: Clique em Next
+Tela Select Components: Marque as seguintes opções:
+
+C Compiler
+C++ Compiler
+MinGW Developer ToolKit
+
+depois clique em Next
+
+Depois de efetuar este procedimento, execute o arquivo "jdk-7u3-windows-i586.exe", este arquivo é necessário para que você consiga rodar 
+o eclipse em sua máquina.
+
+Após ter efetuado a instalação do "jdk-7u3-windows-i586.exe", descompacte a pasta eclipse em qualquer lugar de sua máquina.
+Obs: O eclipse não necessita de instalação. Dentro da pasta existe um executável chamado eclipse.exe, basta executá-lo para abrir o eclipse.
+
+Depois de ter efetuado todas as instalações, copie a pasta chamada "MinGW" e cole no diretorio onde o MingW foi instalado e subistitua todos
+os arquivos pelo desta pasta.
+
+
+Agora execute o eclipse.exe. 
+
+Quando o eclipse abrir, vá em "file" na barra superior, e clique em "import...".
+Haverá uma lista de pastas, abra a pasta "Git" e selecione o subconteudo "projects from Git" e clique em next.
+Dê um duplo clique na pasta "local" e selecione a pasta do nosso projeto, caso nao apareça nenhuma pasta nessa lista,
+clique em "add.." e selecione o diretorio em que se encontra o nosso projeto, e entao clique em next.
+Na janela seguinte, selecione a opção "import existing projects" e clique em next novamente, e então finish na ultima janela.
+Antes de que seja possivel compilar, é necessario dar "build", que pode ser feito atraves do atalho ctrl + b.
+E para finalmente realizar a compilação o atalho é ctrl + f11.
