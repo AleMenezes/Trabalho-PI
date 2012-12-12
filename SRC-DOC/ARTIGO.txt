@@ -42,4 +42,13 @@ http://www.rafaeltoledo.net/tutoriais-allegro-5/
 
 http://www.allegro.cc/
 
+
+\subsection{links para o projeto}
+link para download direto de todo o conteudo do projeto:
+https://github.com/AleMenezes/Trabalho-PI/archive/master.zip
+
+link para visualização do projeto no site do github:
+https://github.com/AleMenezes/Trabalho-PI.git
+
+
 \end{document}
